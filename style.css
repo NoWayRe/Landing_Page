@@ -4,40 +4,34 @@
 }
 
 body {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
-    
-    
 }
 
-
-header, main, footer {
-    padding: 1rem 10% 1rem 10%;
-}
-
-main {
-    flex: 1 auto;
-}
 
 header, footer {
+    padding: 1rem 20% 1rem 20%;
     background-color: #1F2937;
-    
 }
 
 nav, .headers {
     margin-bottom: 48px;
-    
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+}
+
 
 nav {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
-    font-size: 24px;
-    
-    
+    font-size: 22px;    
 }
 
 nav ul{
@@ -67,10 +61,83 @@ h1 {
     
 }
 
-
 .left-header p {
     font-size: 18px;
     margin-bottom: 24px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.service-item p {
+    inline-size: 150px;
+    font-size: 18px;
+    overflow-wrap: break-word; 
+}
+
+.service-item img{
+    
+    border: 2px rgb(70, 116, 242) solid;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p{
+    padding: 2rem 20% 2rem 20%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.call_to_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.call_to_action_field {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 20%;
+    gap: 5rem;
+    
+     
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10%;
+    border-style: none;
+    padding: .5rem 1rem;
+}
+
+.call_to_action button {
+    border:1px solid #F9FAF8 ;
+}
+
+button:hover {
+    background-color: #5fb4ff;
+    cursor: pointer;
 }
 
 footer {
