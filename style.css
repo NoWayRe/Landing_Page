@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -12,7 +17,7 @@ body {
 
 
 header, footer {
-    padding: 1rem 20% 1rem 20%;
+    padding: 1rem 10% 1rem 10%;
     background-color: #1F2937;
 }
 
@@ -97,7 +102,7 @@ h2 {
 }
 
 .quote p{
-    padding: 2rem 20% 2rem 20%;
+    padding: 2rem 10%;
     font-size: 18px;
     font-style: italic;
     font-weight: light;
@@ -116,8 +121,7 @@ h2 {
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 2rem 20%;
+    padding: 2rem 10%;
     gap: 5rem;
     
      
